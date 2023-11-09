@@ -1,0 +1,101 @@
+/* Start General Rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Start Variables */
+  --dark-blue: #1F2937;
+  --white: #F9FAF8;
+  --close-white: #E5E7EB;
+  --blue: #3882F6;
+
+  /* End Variables */
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--close-white);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+button {
+  padding: 8px 33px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  color: var(--white);
+  background-color: var(--blue);
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  
+}
+/* End General Rules */
+/* Start Header */
+header {
+  color: var(--white);
+  background-color: var(--dark-blue);
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+header .container h1 {
+  font-size: 24px;
+}
+header .container ul {
+  display: flex;
+  justify-content: space-between;
+}
+header .container ul li {
+  margin-left: 15px;
+}
+/* End Header */
+/* Start Landing */
+.landing {
+  color: var(--white);
+  background-color: var(--dark-blue);
+}
+.landing .container {
+  display: flex;
+  padding: 100px 15px 120px;
+}
+.landing .container > div {
+  flex: 1;
+}
+.landing .container .left {
+  background-image: url(./images/house.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.landing .container .right {
+  padding-right: 30px;
+}
+.landing .container .right h2 {
+  font-size: 48px;
+}
+.landing .container .right p {
+  margin-bottom: 10px;
+  line-height: 1.8;
+  color: var(--close-white);
+}
+/* End Landing */
