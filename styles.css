@@ -94,8 +94,69 @@ header .container ul li {
   font-size: 48px;
 }
 .landing .container .right p {
-  margin-bottom: 10px;
   line-height: 1.8;
   color: var(--close-white);
+  margin-bottom: 10px;
 }
 /* End Landing */
+/* Information */
+.information {
+  text-align: center;
+  padding: 50px 15px 120px;
+}
+.information h2 {
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+.information .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 880px;
+}
+.information .container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+.information .container .card .img {
+  height: 160px;
+  width: 160px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.information .container .card:first-child .img {
+  background-image: url(./images/img1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.information .container .card:nth-child(2) .img {
+  background-image: url(./images/img2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.information .container .card:nth-child(3) .img {
+  background-image: url(./images/img3.png);
+  background-size: cover;
+  background-position: center;
+}
+.information .container .card:last-child  .img{
+  background-image: url(./images/img4.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.information .container .card p {
+  font-size: 18px;
+  color: #575757;
+}
+/* Information */
+/* Start Quote */
+.quote {
+  background-color: var(--close-white);
+}
+/* End Quote */
