@@ -217,7 +217,7 @@ footer {
   display: flex;
   justify-content: center;
   background-color: var(--dark-blue);
-  color: var(--close-white);
+  color: var(--white);
   padding: 30px;
 }
 /* End Footer */
