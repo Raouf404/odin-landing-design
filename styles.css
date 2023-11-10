@@ -212,3 +212,12 @@ header .container ul li {
   border: 2px solid var(--close-white);
 }
 /* End Action */
+/* Start Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--dark-blue);
+  color: var(--close-white);
+  padding: 30px;
+}
+/* End Footer */
